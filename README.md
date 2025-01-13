@@ -5,13 +5,13 @@ The provided docker-compose file can be used to quickly set up a Jellyfin server
 
 ⚠️ **Important**: Before running the docker-compose file, ensure that you create the necessary file structure as described in the links and using the Linux terminal commands provided below.
 
-## Useful Links and Explanations
+## Useful links and explanations
 
 - [Trash Guides](https://trash-guides.info/)
 - [File and Folder Structure](https://trash-guides.info/File-and-Folder-Structure/)
 - [How to Set Up File and Folder Structure](https://trash-guides.info/File-and-Folder-Structure/How-to-set-up/)
 
-## File Structure
+## File structure tree
 
 ```plaintext
 mnt
@@ -35,7 +35,7 @@ mnt
         └── tv
 ```
 
-## Creating the File Structure in Linux Using Terminal
+## Creating the file structure in Linux using the terminal
  ```sh
 sudo mkdir -p /mnt/data
 cd /mnt/data
@@ -52,7 +52,7 @@ sudo chown -R your_users_name_here:your_users_name_here /mnt/data
 sudo chmod -R 755 /mnt/data
 ```
 
-## To Verify and Display File Structure
+## To verify and display file structure
  ```sh
 sudo apt install tree
 tree /mnt/data
