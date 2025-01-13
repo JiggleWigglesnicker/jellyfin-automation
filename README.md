@@ -1,0 +1,40 @@
+	
+usefull links and explanations for *arr stack:
+https://trash-guides.info/ 
+https://trash-guides.info/File-and-Folder-Structure/
+https://trash-guides.info/File-and-Folder-Structure/How-to-set-up/
+	
+mnt	
+└──	data
+	├── torrents
+	│   ├── books
+	│   ├── movies
+	│   ├── music
+	│   └── tv
+	├── usenet
+	│   ├── incomplete
+	│   └── complete
+	│       ├── books
+	│       ├── movies
+	│       ├── music
+	│       └── tv
+	└── media
+		├── books
+		├── movies
+		├── music
+		└── tv
+		
+
+#creating the file structure in linux using terminal
+
+sudo mkdir -p /mnt/data
+cd /mnt/data
+sudo mkdir -p torrents/books torrents/movies torrents/music torrents/tv
+sudo mkdir -p usenet/incomplete usenet/complete 
+sudo mkdir -p usenet/complete/books usenet/complete/movies usenet/complete/music usenet/complete/tv 
+sudo mkdir -p media/books media/movies media/music media/tv
+
+
+# To verify and display file structure 
+sudo apt install tree
+tree /mnt/data
