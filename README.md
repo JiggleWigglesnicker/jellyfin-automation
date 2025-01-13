@@ -1,6 +1,6 @@
 # File and Folder Structure for *arr Stack
 
-This guide provides useful links and explanations for setting up the file and folder structure for the *arr stack.
+This guide provides useful links and explanations for setting up the file and folder structure for the jellyfin server & *arr stack.
 The docker-compose file can be used to immediatly setup a jellyfin and *arr stack env.
 
 ## Useful Links and Explanations
