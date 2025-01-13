@@ -44,12 +44,11 @@ sudo mkdir -p usenet/incomplete usenet/complete
 sudo mkdir -p usenet/complete/books usenet/complete/movies usenet/complete/music usenet/complete/tv
 sudo mkdir -p media/books media/movies media/music media/tv
 ```
-⚠️ Make sure that your user has the required permissions for the created file structure. If not, you may encounter permission issues when running jellyfin or *arr apps.
+⚠️ Make sure that your user has the required permissions for the created file structure. If not, you may encounter permission issues when running jellyfin or *arr apps (see below).
 
-## Change ownership to your current user 
+## Change ownership to your current user and set the correct permissions
  ```sh
-sudo chown -R your_users_name_here:your_users_name_here /mnt/data 
-# Set the correct permissions 
+sudo chown -R your_users_name_here:your_users_name_here /mnt/data  
 sudo chmod -R 755 /mnt/data
 ```
 
