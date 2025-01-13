@@ -1,4 +1,4 @@
-# Mini quickstart guide for jellyfin server & *arr Stack (radarr, sonarr, etc)
+# Mini quickstart guide for jellyfin server & *arr stack (radarr, sonarr, etc)
 
 This mini quickstart guide offers useful links and explanations for setting up the file and folder structure for the Jellyfin server and *arr stack. 
 The provided docker-compose file can be used to quickly set up a Jellyfin server and *arr stack environment.
