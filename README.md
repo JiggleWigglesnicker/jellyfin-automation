@@ -2,6 +2,7 @@
 
 This mini quickstart guide offers useful links and explanations for setting up the file and folder structure for the Jellyfin server and *arr stack. 
 The provided docker-compose file can be used to quickly set up a Jellyfin server and *arr stack environment.
+
 ⚠️ Important: Before running the docker-compose file, ensure that you create the necessary file structure as described in the links and using the Linux terminal commands provided below.
 
 ## Useful Links and Explanations
